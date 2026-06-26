@@ -2,8 +2,9 @@ from telegram import Bot
 from apscheduler.schedulers.blocking import BlockingScheduler
 import os
 
-TOKEN = os.getenv("BOT_TOKEN")
-CHANNEL = os.getenv("CHANNEL_ID")
+TOKEN = os.getenv("7980213474:AAFaU7wUiwFdjNCE2M5w2RAglvsuA8dUdB0
+")
+CHANNEL = os.getenv("@productsbuild")
 
 bot = Bot(TOKEN)
 
